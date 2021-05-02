@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+#titulo_1, #titulo_2, #circulo_1, #circulo_2, #linha_1, #linha_2, #frente{
+    position: absolute;
+}
+
+
+#frente{
+    margin: 10px; 
+    width: 672px;
+    height: 384px;
+    box-sizing: border-box;
+    background-color: #182722;
+    border-radius: 45px;
+    overflow: hidden;
+
+}
+
+#titulo_1{
+    width: 290px;
+    height: 122px;
+    color: #00e091;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    top: 110px;
+    left: 63px;
+
+}
+
+#titulo_2{
+    width: 350px;
+    height: 25px;
+    color: #ffffff;
+    font-size: 22.4px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    top: 252px;
+    left: 63px;
+}
+
+#circulo_1{
+    width: 305px;
+    height: 305px;
+    border-radius: 50%;
+    background-image: linear-gradient(150deg,#182722, #00e091);
+    left: 420px;
+    top: -89px;
+}
+
+#circulo_2{
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    background-image: linear-gradient(280deg,#182722, #00e091);
+    left: 305px;
+    top: 289px;
+}   
+
+#linha_1{
+    width: 2px;
+    height: 300px;
+    transform: rotate(50deg);
+    background-color: white;
+    left: 580px;
+    top: -10px;
+}
+
+#linha_2{
+    width: 2px;
+    height: 250px;
+    transform: rotate(50deg);
+    background-color: white;
+    left: 580px;
+    top: 110px;
+}
